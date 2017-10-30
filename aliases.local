@@ -1,8 +1,6 @@
 # Terminal
 alias l='ls -alF'
 
+set -o vi
+
 export SILENCE_RBENV_DEPRECATION=1
-
-export GITHUB_USER=mikehostetler
-export GITHUB_TOKEN=27bff539cfcf5eb6f83f9abc5dc8d879cedb8351
-
