@@ -1,6 +1,10 @@
 # Terminal
 alias l='ls -alF'
+alias composer="php /usr/local/bin/composer.phar"
 
 set -o vi
 
 export SILENCE_RBENV_DEPRECATION=1
+
+export AWS_PROFILE=default
+export AWS_REGION=us-east-1
