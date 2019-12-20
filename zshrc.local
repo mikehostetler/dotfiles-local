@@ -98,3 +98,6 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 # Removing install of Elixir/Erlang via asdf due to OTP/version issues
 #. $HOME/.asdf/asdf.sh
 #. $HOME/.asdf/completions/asdf.bash
+
+echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
+echo -e "\n. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash" >> ~/.zshrc
