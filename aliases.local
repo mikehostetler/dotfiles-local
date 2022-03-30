@@ -2,6 +2,7 @@
 set -o vi
 
 alias l='ls -alF'
+alias gig='gigalixir'
 # alias composer="php /usr/local/bin/composer.phar"
 
 # export SILENCE_RBENV_DEPRECATION=1
